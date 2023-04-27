@@ -5,11 +5,11 @@
 }
 
 .game-screen {
-  width: 80%;
+  width: 800px;
   min-width: 500px;
-  height: 500px;
+  height: 100vh;
   border: 1px solid #333;
-  margin: 100px auto;
+  margin: 0 auto;
   position: relative;
   overflow: hidden;
 }

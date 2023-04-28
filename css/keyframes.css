@@ -1,0 +1,58 @@
+@keyframes jump {
+  0% {
+    bottom: 50px;
+  }
+
+  40% {
+    bottom: 160px;
+  }
+
+  50% {
+    bottom: 170px;
+  }
+
+  60% {
+    bottom: 160px;
+  }
+
+  100%{
+    bottom: 50px ;
+  }
+}
+
+@keyframes pipe-animation {
+  from {
+    right: -100px;
+  }
+
+  to {
+    right: 100%
+  }
+}
+
+@keyframes  ground-animation-1 {
+  from {
+    right: 0px;
+  }
+
+  to {
+    right: 100%
+  }
+}
+
+@keyframes  ground-animation-2 {
+  from {
+    transform: translateX(790px);
+  }
+
+}
+
+@keyframes clouds-animation {
+  from {
+    right: -400px;
+  }
+
+  to {
+    right: 100%;
+  }
+}

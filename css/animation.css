@@ -1,0 +1,41 @@
+@import url(./keyframes.css );
+
+.mario {
+  position: absolute;
+  bottom: 50px;
+  width: 150px;
+}
+
+.jump {
+  animation: jump 500ms ease-out;
+}
+
+.pipe {
+  position: absolute;
+  bottom: 50px;
+  height: 80px;
+  width: 80px;
+  animation: pipe-animation 1.5s infinite linear;
+}
+
+.ground-1 {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 800px;
+  animation: ground-animation-1 1.3s infinite linear;
+}
+
+.ground-2 {
+  position: absolute;
+  bottom: 0px;  
+  height: 50px;
+  width: 800px;
+  animation: ground-animation-2  1.3s infinite linear;
+}
+
+.clouds{
+  position: absolute;
+  width: 400px;
+  animation: clouds-animation 20s infinite linear;
+}

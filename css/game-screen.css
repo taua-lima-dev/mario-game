@@ -6,11 +6,28 @@
 
 .game-screen {
   width: 800px;
-  min-width: 500px;
+  min-width: 800px;
   height: 100vh;
   border: 2px solid #333;
   margin: 0px auto;
   position: relative;
   overflow: hidden;
   background: linear-gradient(#54bde7, #e0f6ff);
+}
+
+.menu {
+  margin: 8px;
+  position: absolute;
+}
+
+.button-game {
+  border: 2px solid #000;
+  border-radius: 16px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #a0a0a0;
+  font-size: 12px;
+  font-family: mario;
+  text-decoration: none;
+  color: #090a0a;
 }

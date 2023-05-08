@@ -3,8 +3,17 @@ const pipe = document.querySelector(".pipe");
 const ground1 = document.querySelector('.ground-1')
 const ground2 = document.querySelector(".ground-2");
 
+const coinSound = document.querySelector("#coin-sound") /////
+const doorSound = document.querySelector("#door-sound") /////
+
+const coinPlay = () => { ///////
+  coinSound.play
+  return coinPlay
+}
+
 const jump = () => {
   mario.classList.add('jump')
+  coinPlay() ///////
   setTimeout(()=> {
     mario.classList.remove('jump')
   }, 500)

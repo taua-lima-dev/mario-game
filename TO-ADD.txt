@@ -1,5 +1,4 @@
-- imagem mário pulando
+- imagem mário pulando 
 - níveis de dificuldade
 - contador de pontos
-- adicionar efeitos de música
-- adicionar botao para reiniciar o jogo
+- aparecer menu somente no game-over

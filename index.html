@@ -6,12 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="icon" type="favicon" href="/images/favicon.png" />
+    <script src="./js/script.js" defer></script>
     <title>Super Mário CSS</title>
   </head>
+
+  <audio id="title-music" autoplay loop>
+    <source src="./sounds/title.mp3" type="audio/mp3" />
+  </audio>
+  <audio id="coinSound">
+    <source src="./sounds/coin.wav" type="audio/wav" />
+  </audio>
+  <audio id="doorSound">
+    <source src="./sounds/door_opens.wav" type="audio/wav" />
+  </audio>
+
   <body>
-    <audio src="./sounds/title.mp3" id="title-music" autoplay loop></audio>
-    <audio src="./sounds/coin.wav" id="coin-sound"></audio>
-    <audio src="./sounds/door_opens.wav" id="door-sound"></audio>
     <div class="home">
       <div>
         <img src="./images/mario-logo.png" alt="Logo" class="logo" />
@@ -19,13 +28,12 @@
       <div>
         <a href="./game.html" class="button">S t a r t</a>
       </div>
-
       <footer class="footer">
-        <img src="./images/coin-spin.gif" alt="Coin" class="coin">
+        <img src="./images/coin-spin.gif" alt="Coin" class="coin1" />
         <span>Desenvolvido por Tauã Lima</span>
-        <img src="./images/coin-spin.gif" alt="Coin" class="coin">
+        <img src="./images/coin-spin.gif" alt="Coin" class="coin2" />
       </footer>
-      <img src="./images/mario-bg.gif" alt="Background" class="bg">
+      <img src="./images/mario-bg.gif" alt="Background" class="bg" />
     </div>
   </body>
 </html>

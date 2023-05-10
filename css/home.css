@@ -46,8 +46,9 @@
   
 }
 
-.coin {
+.coin1, .coin2 {
   width: 12px;
+  cursor: pointer;
 }
 
 .bg {

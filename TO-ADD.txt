@@ -1,3 +1,3 @@
-- imagem mário pulando 
 - níveis de dificuldade
 - contador de pontos
+- autoplay tela inicial

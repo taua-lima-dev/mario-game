@@ -2,6 +2,7 @@ const coinImg1 = document.querySelector(".coin1");
 const coinImg2 = document.querySelector(".coin2");
 
 const coinSound = document.querySelector("#coinSound");
+// const titleSound = document.querySelector("#title-music");
 
 const coinPlay = () => {
   coinSound.play();

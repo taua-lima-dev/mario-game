@@ -1,6 +1,20 @@
 @import url(./keyframes.css );
 
+
 .mario {
+  position: absolute;
+  bottom: 50px;
+  width: 150px;
+}
+
+.mario-game-over {
+  position: absolute;
+  bottom: 50px;
+  width: 150px;
+  display: none
+}
+
+.mario-game-over-2 {
   position: absolute;
   bottom: 50px;
   width: 150px;

@@ -2,17 +2,12 @@ const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
 const ground1 = document.querySelector(".ground-1");
 const ground2 = document.querySelector(".ground-2");
-const coinImg1 = document.querySelector(".coin1");
-const coinImg2 = document.querySelector(".coin2");
+const clouds = document.querySelector(".clouds");
+const menu = document.querySelector(".hidden")
 
-const coinSound = document.querySelector("#coinSound");
 const jumpSound = document.querySelector("#jumpSound");
 const stageSound = document.querySelector("#stageSound");
 const gameOverSound = document.querySelector("#gameOver");
-
-const coinPlay = () => {
-  coinSound.play();
-};
 
 const jumping = () => {
   jumpSound.play();
@@ -27,7 +22,7 @@ const jump = () => {
 };
 
 const loop = setInterval(() => {
-  
+  const cloudsPosition = clouds.offsetLeft;
   const pipePosition = pipe.offsetLeft;
   const marioPosition = +window
     .getComputedStyle(mario)
@@ -45,6 +40,13 @@ const loop = setInterval(() => {
     ground1.style.animation = "none";
     ground2.style.animation = "none";
 
+    clouds.style.animation = "none";
+    clouds.style.left = `${cloudsPosition}px`;
+
+    setTimeout(() => {
+      menu.style.display = "block"
+    }, 3000)
+   
     mario.src = "./images/mario-game-over.png";
     mario.style.width = "75px";
     mario.style.marginLeft = "50px";
@@ -62,5 +64,3 @@ const loop = setInterval(() => {
 }, 10);
 
 document.addEventListener("keydown", jump);
-coinImg1.addEventListener("click", coinPlay);
-coinImg2.addEventListener("click", coinPlay);

@@ -56,3 +56,13 @@
     right: 100%;
   }
 }
+
+@keyframes move-home-animaton {
+  from {
+    right: -400px;
+  }
+
+  to {
+    right: 100%;
+  }
+}

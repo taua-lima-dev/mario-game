@@ -11,38 +11,58 @@
   align-items: center;
 }
 
+.info {
+  position: absolute;
+  left: 10px;
+  width: 135px;
+  height: 30px;
+  display: flex;
+  align-items: center;  
+}
+
+.info, a {
+ font-family: 'Press Start 2P', cursive;
+ font-size: 10px;
+ color:#ffffff;
+ filter: drop-shadow(0px 1px 5px rgba(150, 150, 150, 0.9));
+}
+
+.info img {
+  width: 25px;
+}
+
 .logo {
   width: 500px;
   filter: drop-shadow(0px 5px 10px rgba(150, 150, 150, 0.9));
 }
 
 h2 {
-  color:#dedede;
+  color:#ffffff;
   font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
   margin-bottom: 22px;
   filter: drop-shadow(0px 3px 10px rgba(150, 150, 150, 0.9));
 }
 
 
 .main-menu {
+  font-size: 14px;
   display:flex;
   flex-direction: column;
   gap: 24px;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   color:#dedede;
-  cursor: default;
   filter: drop-shadow(0px 3px 10px rgba(150, 150, 150, 0.9));
 }
 
 .main-menu span a {
-  cursor: pointer;
   text-decoration: none;
   color:#dedede;
 }
 
 .main-menu span a:hover {
-  font-size: 22px;
+  font-size: 18px;
   transition: .15s;
 }
 
@@ -53,7 +73,6 @@ h2 {
 
 .footer span {
   font-family: 'Press Start 2P', cursive;
-  cursor: default;
   text-align: center;
   margin: 0px 6px 0px 9px;
   font-size: 8px;
@@ -62,7 +81,6 @@ h2 {
 
 .coin1, .coin2 {
   width: 12px;
-  cursor: default;
 }
 
 .bg-image {
@@ -80,3 +98,46 @@ h2 {
   position: absolute;
   z-index: -2;
 }
+
+.how-to-play {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  background-color: #000;
+  border-radius: 10px;
+  position: absolute;
+  left: 35%;
+  bottom: 35%;
+  filter: drop-shadow(0px 3px 10px rgba(150, 150, 150, 0.9));
+}
+
+.how-to-play p {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  text-align: center;
+  color: #dedede;
+  margin: 3px;
+  
+}
+
+.how-to-play img {
+  width: 200px;
+  margin: 12px;
+  text-align: center;
+}
+
+.how-to-play span {
+  font-family: 'Press Start 2P', cursive;
+  color: #f80505;
+  border: 2px solid red;
+  text-align: center;
+  border-radius: 3px;
+  position: absolute;
+  left: 90%;
+  top: 5px;
+}
+
+

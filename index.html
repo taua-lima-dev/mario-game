@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="icon" type="favicon" href="/images/favicon.png" />
-    <script src="./js/home.js" defer></script>
+    <script src="./js/index.js" defer></script>
     <title>Super Mário CSS</title>
   </head>
 
@@ -22,18 +22,33 @@
 
   <body>
     <div class="home">
-      <div>
-        <img src="./images/mario-logo.png" alt="Logo" class="logo" />
+      <div class="info" id="info">
+        <a>How to play</a>
+        <img src="./images/info.webp" alt="Info Icon" />
       </div>
 
-      <h2>Start a new game?</h2>
-      
-      <div class="main-menu">
+      <span class="hidden" id="window-directions">
+        <div class="how-to-play">
+          <span id="btn-close">X</span>
+          <p>Click on</p>
+          <p>controller to</p>
+          <p>jump!</p>
+          <img src="./images/controller-1.png" alt="Snes Controller" />
+        </div>
+      </span>
+
+      <div>
+        <img src="./images/mario-logo.png" alt="Logo" class="logo" id="logo"/>
+      </div>
+
+      <h2 id="title">Start a new game?</h2>
+
+      <div class="main-menu" id="menu">
         <span>
-          <a href="#">Easy</a>
+          <a href="./game-mode/game-easy.html">Easy</a>
         </span>
         <span>
-          <a href="./game.html">Normal</a>
+          <a href="./game-mode/game-normal.html">Normal</a>
         </span>
         <span>
           <a href="#">Hard</a>

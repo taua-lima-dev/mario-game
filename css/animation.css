@@ -54,3 +54,13 @@
   width: 400px;
   animation: clouds-animation 20s infinite linear;
 }
+
+.mario-flying {
+  position: absolute;
+  bottom: 280px;
+  width: 115px;
+}
+
+.move-home {
+  animation: move-home-animation 20s infinite linear;
+}

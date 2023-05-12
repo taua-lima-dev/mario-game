@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" type="favicon" href="/images/favicon.png" />
+    <script src="../js/game-normal.js" defer></script>
+    <title>Super Mario CSS</title>
+  </head>
+
+  <audio id="stageSound" autoplay loop>
+    <source src="../sounds/overworld-hurry.mp3" type="audio/wav" />
+  </audio>
+  <audio id="jumpSound">
+    <source src="../sounds/jump.wav" type="audio/wav" />
+  </audio>
+  <audio id="gameOver">
+    <source src="../sounds/game-over.wav" type="audio/wav" />
+  </audio>
+
+  <body>
+    <div class="game-screen">
+      <span class="game-over hidden" id="game-over-msg">
+        <p class="game-over-msg">GAME</p>
+        <p class="game-over-msg">OVER</p>
+      </span>
+
+      <span class="hidden" id="menu">
+        <div class="menu">
+          <a href="../index.html" class="button-menu">Home</a>
+          <a href="./game-normal.html" class="button-menu">Restart</a>
+        </div>
+      </span>
+
+      <img src="../images/pipe-game.png" alt="Pipe" class="pipe" />
+
+      <img src="../images/mario-fly.gif" alt="Mario" class="mario" />
+
+      <img
+        src="../images/mario-game-over.png"
+        alt="Mario"
+        class="mario-game-over"
+      />
+
+      <img src="../images/ground.png" alt="Ground 1" class="ground-1" />
+
+      <img src="../images/ground.png" alt="Ground 2" class="ground-2" />
+
+      <img
+        src="../images/mountains-bg.png"
+        alt="Mountais"
+        class="mountains-bg"
+      />
+
+      <img src="../images/clouds-game.png" alt="Clouds" class="clouds" />
+
+      <img
+        src="../images/controller-1.png"
+        alt="Controller"
+        class="controller controller-1"
+      />
+      <img
+        src="../images/controller-2.png"
+        alt="Controller"
+        class="controller controller-2 hidden"
+      />
+
+      <img
+        src="../images/bg-black.png"
+        alt="Background"
+        class="bg-game-black hidden"
+      />
+    </div>
+  </body>
+</html>

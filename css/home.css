@@ -13,16 +13,14 @@
 
 .logo {
   width: 500px;
-  -webkit-filter: drop-shadow(0px 15px 16px rgba(0, 0, 0, 0.9)); 
-  filter: drop-shadow(0px 15px 16px rgba(0, 0, 0, 0.9));
+  filter: drop-shadow(0px 5px 10px rgba(150, 150, 150, 0.9));
 }
 
 h2 {
   color:#dedede;
   font-family: 'Press Start 2P', cursive;
   margin-bottom: 22px;
-  -webkit-filter: drop-shadow(0px 15px 16px rgba(0, 0, 0, 0.9)); 
-  filter: drop-shadow(0px 15px 16px rgba(0, 0, 0, 0.9));
+  filter: drop-shadow(0px 3px 10px rgba(150, 150, 150, 0.9));
 }
 
 
@@ -34,8 +32,7 @@ h2 {
   font-family: 'Press Start 2P', cursive;
   color:#dedede;
   cursor: default;
-  -webkit-filter: drop-shadow(0px 15px 16px rgba(0, 0, 0, 0.9)); 
-  filter: drop-shadow(0px 15px 16px rgba(0, 0, 0, 0.9));
+  filter: drop-shadow(0px 3px 10px rgba(150, 150, 150, 0.9));
 }
 
 .main-menu span a {
@@ -65,7 +62,7 @@ h2 {
 
 .coin1, .coin2 {
   width: 12px;
-  cursor: pointer;
+  cursor: default;
 }
 
 .bg-image {

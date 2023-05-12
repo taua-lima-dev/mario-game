@@ -6,7 +6,6 @@
   margin: 0px auto;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(#54bde7, #e0f6ff);
 }
 
 .hidden {
@@ -15,15 +14,35 @@
 
 .button-jump {
   font-family: 'Press Start 2P', cursive;
-  border: 2px solid #000;
-  border-radius: 100%;
+  background-color: #6b4b8b;
+  border-radius: 48%;
   position: absolute;
   cursor: pointer;
-  width: 100px;
+  width: 105px;
   height: 100px;
   margin: 16px;
   text-align: center;
   z-index: 1;
+  box-shadow: 0px 8px 2px 1px #44334f;
+}
+
+.game-over {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 48px;
+  width: 150px;
+  height: 50px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 360px;
+  right: 44%;
+  z-index: 1;
+  text-align: center;
+}
+
+.game-over-msg{
+  margin: 12px;
+  color: #dedede;
+  filter: drop-shadow(0px 3px 10px rgba(80, 80, 80, 0.9));
 }
 
 .menu {
@@ -31,27 +50,39 @@
   height: 50px;
   margin: 0 auto;
   position: absolute;
-  text-align: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 24px;
   bottom: 340px;
   right: 40%;
+  z-index: 1;
 }
 
 .button-game {
-  border: 2px solid #000;
-  border-radius: 16px;
   padding: 5px;
   cursor: pointer;
-  background-color: #a0a0a0;
   font-size: 22px;
-  font-family: mario;
+  font-family: 'Press Start 2P', cursive;
   text-decoration: none;
-  color: #090a0a;
-  box-shadow: 0px 15px 16px -4px #333;
+  color: #dedede;
+  filter: drop-shadow(0px 3px 10px rgba(80, 80, 192, 0.9));
 }
 
 .button-game:hover {
   font-size: 22.5px;
+}
+
+.mountains-bg {
+  z-index: -1;
+  width: 800px;
+  height: 610px;
+  position: absolute;
+}
+
+.bg-game-black {
+  opacity: 85%;
+  width: 800px;
+  height: 610px;
+  position: absolute;
 }

@@ -22,14 +22,20 @@
 
   <body>
     <div class="game-screen">
-      <span class="hidden">
+
+      <span class="game-over hidden" id="game-over-msg">
+        <p class="game-over-msg">GAME</p>
+        <p class="game-over-msg">OVER</p>
+      </span>
+
+      <span class="hidden" id="menu">
         <div class="menu">
-          <a href="./index.html" class="button-game">home</a>
+          <a href="./index.html" class="button-game"> home</a>
           <a href="./game.html" class="button-game">restart</a>
         </div>
       </span>
 
-      <div class="button-jump">teste</div>
+      <div class="button-jump"></div>
 
       <img src="./images/pipe-game.png" alt="Pipe" class="pipe" />
 
@@ -45,7 +51,11 @@
 
       <img src="./images/ground.png" alt="Ground 2" class="ground-2" />
 
+      <img src="./images/mountains-bg.png" alt="Mountais" class="mountains-bg" />
+
       <img src="./images/clouds-game.png" alt="Clouds" class="clouds" />
+
+      <img src="./images/bg-black.png" alt="Background" class="bg-game-black hidden" />
     </div>
   </body>
 </html>

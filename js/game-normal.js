@@ -89,4 +89,3 @@ const loop = setInterval(() => {
 
 btnJump.addEventListener("click", jump);
 btnJumpPressed.addEventListener("click", jump);
-

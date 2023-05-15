@@ -32,6 +32,34 @@
   animation: pipe-animation 1.5s infinite linear;
 }
 
+.pipe-hard {
+  visibility: hidden;
+}
+
+.bullet {
+  position: absolute;
+  bottom: 130px;
+  height: 150px;
+  width: 200px;
+  animation: bullet-animation 1.5s infinite linear;
+}
+
+.bullet-0 {
+  bottom: 130px;
+}
+
+.bullet-1 {
+  bottom: 280px;
+}
+
+.bullet-2 {
+  bottom: 430px;
+}
+
+.bullet-3 {
+  bottom: 580px;
+}
+
 .ground-1 {
   position: absolute;
   bottom: 0px;
@@ -59,8 +87,4 @@
   position: absolute;
   bottom: 280px;
   width: 115px;
-}
-
-.move-home {
-  animation: move-home-animation 20s infinite linear;
 }

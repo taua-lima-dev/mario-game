@@ -57,12 +57,12 @@
   }
 }
 
-@keyframes move-home-animaton {
+@keyframes bullet-animation {
   from {
-    right: -400px;
+    right: -650px;
   }
 
   to {
-    right: 100%;
+    right: 100%
   }
 }

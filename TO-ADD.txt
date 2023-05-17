@@ -1,3 +1,2 @@
-- níveis de dificuldade
 - contador de pontos
-- autoplay tela inicial
+- autoplay tela inicial - gambiarra

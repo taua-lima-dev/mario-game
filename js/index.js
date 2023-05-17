@@ -9,11 +9,15 @@ const btnClose = document.querySelector("#btn-close");
 
 
 const coinSound = document.querySelector("#coinSound");
-// const titleSound = document.querySelector("#title-music");
+const titleMusic = document.querySelector("#title-music");
 
 const coinPlay = () => {
   coinSound.play();
 };
+
+const playMusic = () => {
+  titleMusic.play();
+}
 
 const HowToPlay = () => {
   coinSound.play();
@@ -31,8 +35,10 @@ const msgClose = () => {
   title.classList.remove("hidden");
 }
 
+
 coinImg1.addEventListener("click", coinPlay);
 coinImg2.addEventListener("click", coinPlay);
 info.addEventListener("click", HowToPlay);
 btnClose.addEventListener("click", msgClose)
+window.addEventListener("mousemove", playMusic)
 

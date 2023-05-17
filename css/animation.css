@@ -83,6 +83,10 @@
   animation: clouds-animation 20s infinite linear;
 }
 
+.clouds-hard {
+  z-index: -1;
+}
+
 .mario-flying {
   position: absolute;
   bottom: 280px;

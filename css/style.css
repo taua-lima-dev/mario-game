@@ -15,3 +15,16 @@
 .hidden {
   display:none
 }
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: rgb(14,118,139);
+  background: linear-gradient(90deg, rgba(14,118,139,1) 0%, rgba(255,255,255,1) 50%, rgba(14,118,139,1) 100%);
+  z-index: -1;
+  position: absolute;
+}

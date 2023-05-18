@@ -20,7 +20,7 @@
   align-items: center;  
 }
 
-.info, a {
+.info, .info-link {
  font-family: 'Press Start 2P', cursive;
  font-size: 10px;
  color:#ffffff;
@@ -56,12 +56,12 @@ h2 {
   filter: drop-shadow(0px 3px 10px rgba(150, 150, 150, 0.9));
 }
 
-.main-menu span a {
+.main-menu .menu-option .menu-link {
   text-decoration: none;
   color:#dedede;
 }
 
-.main-menu span a:hover {
+.main-menu .menu-option .menu-link:hover {
   font-size: 18px;
   transition: .15s;
 }
@@ -77,6 +77,13 @@ h2 {
   margin: 0px 6px 0px 9px;
   font-size: 8px;
   color: #797979;
+}
+
+.github-link {
+  font-size: 8px;
+  color: #797979;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .coin1, .coin2 {
